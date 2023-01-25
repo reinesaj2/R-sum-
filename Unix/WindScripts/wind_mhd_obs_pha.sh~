@@ -3,9 +3,9 @@
 ### wind4c_obs.sh
 
 ### author: Keigo Fukumura
-### help from T. Sakamoto, J. Garcia, D. Kazanas, T. Kallman, Abraham J. Reines
+### help from T. Sakamoto, J. Garcia, D. Kazanas, T. Kallman
 ### ---------------------------------------------------------
-### last updated 8/5/2022
+### last updated 11/5/2019
 
 ###--- boundary conditions ---###
 # for 50deg
@@ -13,7 +13,7 @@
 #xi30=3230.72
 #Cf=1.
 
-logxi0=5.65081
+logxi0=6.88755
 Cf=0.0
 
 #redz=2.9
@@ -386,7 +386,7 @@ awk '{print $4-$3, $3}' abund2.txt > stbl.txt
 echo "--- END of calculations ---"
 
 # MakePhaFile
-./MakePhaFile2.sh 
+./MakePhaFile.sh
 
 ### end of the script
 
@@ -394,5 +394,4 @@ echo "--- END of calculations ---"
 # wavelength = (6.6261*10^-27)*(2.99*10^10)/(Eev*1.602*10^-12)*10^8
 #            = 12382.5/Eev
 
-# MakePhaFile
-./MakePhaFile.sh 
+

@@ -3,9 +3,9 @@
 ### wind4c_obs.sh
 
 ### author: Keigo Fukumura
-### help from T. Sakamoto, J. Garcia, D. Kazanas, T. Kallman
+### help from T. Sakamoto, J. Garcia, D. Kazanas, T. Kallman, Abraham J. Reines
 ### ---------------------------------------------------------
-### last updated 11/5/2019
+### last updated 8/5/2022
 
 ###--- boundary conditions ---###
 # for 50deg
